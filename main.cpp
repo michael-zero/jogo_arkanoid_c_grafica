@@ -253,7 +253,7 @@ void update(int value){
 	
 	
 	
-	if(inimigoX >= 8){ //se bater na lateral direita
+	if(inimigoX > 8){ //se bater na lateral direita
 		velX = -velX;
 	}
 	
